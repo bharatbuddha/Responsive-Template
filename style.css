@@ -1,0 +1,288 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.col2 {
+    margin: 0px 10px;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: black;
+    height: 40px;
+    width: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: tomato;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    background-color: rgb(39, 136, 196);
+    height: 80px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: black;
+    height: 80px;
+    width: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: yellow;
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra {
+    background-color: aquamarine;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.image {
+    background-color: rgb(148, 230, 230);
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header2 {
+    background-color: black;
+    height: 40px;
+    width: 350px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero2 {
+    background-color: rgb(39, 136, 196);
+    height: 140px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-a {
+    background-color: tomato;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+}
+
+.row1 {
+    background-color: black;
+    height: 120px;
+    width: 270px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2 {
+    background-color: yellow;
+    height: 60px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-c {
+    background-color: aquamarine;
+    height: 60px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col-d {
+    background-color: rgb(148, 230, 230);
+    height: 60px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row3 {
+    display: flex;
+}
+
+.col-a1 {
+    background-color: black;
+    height: 40px;
+    width: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-a2 {
+    background-color: tomato;
+    height: 40px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.row-a {
+    display: flex;
+}
+
+.row-b {
+    background-color: rgb(39, 136, 196);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.col-c1 {
+    background-color: black;
+    height: 120px;
+    width: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-c2 {
+    background-color: white;
+    height: 120px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-c {
+    display: flex;
+}
+
+.row-c3a {
+    background-color: rgb(148, 230, 230);
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-c3b {
+    background-color: aquamarine;
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-d {
+    background-color: yellow;
+    height: 60px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        flex-wrap: wrap;
+
+    }
+
+    
+}
+
+@media screen and (max-width:567px) {
+    .col1 {
+        width: 80%;
+    }
+
+    .header,
+    .menu,
+    .hero,
+    .main,
+    .banner,
+    .extra,
+    .image {
+        width: 100%;
+    }
+
+    .col-3 {
+        width: 60%;
+    }
+
+    .col-a1 {
+        width: 100%;
+    }
+
+    .col-c1,
+    .col-c3 {
+        width: 50%;
+    }
+
+    .row-c3a,
+    .row-c3b {
+        width: 100%;
+    }
+
+    .row-b {
+        width: 100%;
+    }
+}
